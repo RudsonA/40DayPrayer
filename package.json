@@ -1,0 +1,23 @@
+{
+  "name": "40dayprayer",
+  "version": "1.0.0",
+  "description": "40 day prayer countdown and prayer list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RudsonA/40DayPrayer.git"
+  },
+  "author": "rudson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RudsonA/40DayPrayer/issues"
+  },
+  "homepage": "https://github.com/RudsonA/40DayPrayer#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3"
+  }
+}
