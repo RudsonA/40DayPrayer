@@ -1,9 +1,10 @@
-
-function countingDown(countDownDate) {
-
+function countingDown() {
+    const countDownDate = new Date("June 2, 2019").getTime();
+    console.log(countDownDate);
+    
     let x = setInterval(() => {
 
-        const now = new Date().getTime;
+        const now = new Date().getTime();
 
         const distance = countDownDate - now;
 
@@ -21,4 +22,6 @@ function countingDown(countDownDate) {
     }, 1000);
 }
 
-export default countingDown; 
+// export default countingDown; 
+
+countingDown();
