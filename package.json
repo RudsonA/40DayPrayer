@@ -1,0 +1,33 @@
+{
+  "name": "40dayprayer",
+  "version": "1.0.0",
+  "description": "To eventually become a prayer countdown and list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run watch:all",
+    "watch:all": "concurrently \"npm run watch:babel\" \"npm run watch:pug\" \"npm run watch:sass\"",
+    "watch:babel": "npx babel js/compiled -w -o js/main.js",
+    "watch:pug": "pug -w pug -o html -P",
+    "watch:sass": "sass --watch stylesheets"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RudsonA/40DayPrayer.git"
+  },
+  "author": "rudson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RudsonA/40DayPrayer/issues"
+  },
+  "homepage": "https://github.com/RudsonA/40DayPrayer#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "parallelshell": "^3.0.2"
+  },
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "sass": "^1.19.0"
+  }
+}

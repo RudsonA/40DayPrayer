@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 html(lang="en")
-    head
-        meta(charset="UTF-8")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        meta(http-equiv="X-UA-Compatible", content="ie=edge")
-        title 40 Day Prayer
-        link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css")
-        link(rel="stylesheet", href="../css/main.css")
+    include includes/head.pug
     body
         p(id="timer")
-        //- script(src="../js/main-compiled.js")
-        //- script(src="../js/main.js")
-        script(src="../js/countdown.js")
+        include includes/js.pug 
