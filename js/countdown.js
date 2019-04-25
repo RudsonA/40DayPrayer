@@ -1,6 +1,6 @@
+// countdown.js file 
 function countingDown() {
     const countDownDate = new Date("June 2, 2019").getTime();
-    console.log(countDownDate);
     
     let x = setInterval(() => {
 
