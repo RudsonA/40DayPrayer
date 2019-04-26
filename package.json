@@ -24,10 +24,12 @@
   "devDependencies": {
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
+    "browser-sync": "^2.26.5",
     "parallelshell": "^3.0.2"
   },
   "dependencies": {
     "concurrently": "^4.1.0",
+    "pug": "^2.0.3",
     "sass": "^1.19.0"
   }
 }
